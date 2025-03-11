@@ -45,7 +45,7 @@ jobs:
     - name: build Production Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: dist/
+        name: dist
         path: dist/
 
 
